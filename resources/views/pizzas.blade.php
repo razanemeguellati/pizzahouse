@@ -7,7 +7,8 @@
                 Pizza Orders : 
                 </div>
 
-   <div class="bigdiv">
+ 
+                <div class="bigdiv">
         @foreach ($pizzas as $pizza)
             <div class="pizza-item">
                 

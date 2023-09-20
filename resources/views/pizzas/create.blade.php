@@ -9,7 +9,7 @@
         <label for="name">Your name </label>
         <input type="text" id="name" name="name">
 
-        <label for="type">Choose pizza type :</label>
+<label for="type">Choose pizza type :</label>
         <select name="type" id="type">
             <option value="margarita"> Margarita</option>
             <option value="hawaiin"> Hawaiin</option>
@@ -25,7 +25,9 @@
             <option value="thin and crispy"> Thin and crispy </option>
             <option value="thick">Thick</option>
         </select>
-        
+
+       
+       
         <label for="price">Price </label>
         <input type="number" id="price" name="price">
 

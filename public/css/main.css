@@ -69,12 +69,17 @@ footer{
  .pizza-item {
     margin: 10px 0;
     padding: 12px;
+    width: 100%;
     background: #f4f4f4;
     display: flex;
     justify-content: start;
     align-items: center;
     border-radius: 50px;
+transition: transform 0.3 ease-out;
+  }
 
+  .pizza-item:hover{
+transform: scale(0.9);
   }
   
   .bigdiv .pizza-item img {
@@ -96,8 +101,44 @@ footer{
 
   }
 
-  .bigdiv .bigdiv
-  {
-    display: grid;
-    grid-template-columns: 50% 50%;
+/* create pizza form */
+
+.create-pizza {
+    background: #2e2d2d;
+    padding: 20px;
   }
+  
+  .create-pizza label,
+  .create-pizza select {
+    display: block;
+  }
+  
+  .create-pizza .flexy label {
+    margin-top: 30px;
+  }
+  
+  .create-pizza .flexy select {
+    padding: 8px;
+    width: 200px;
+    height: 10px;
+  }
+  
+  .create-pizza  input[type=checkbox] {
+    margin: 10px;
+  }
+  
+  .create-pizza input[type=submit] {
+    background: #5e2195;
+    padding: 8px 20px;
+    color: #fff;
+    border: 0;
+    margin-top: 20px;
+  }
+
+  .wrapper {
+    max-width: 1140px;
+    padding: 10px;
+    margin: 20px auto;
+  }
+
+ 
