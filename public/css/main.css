@@ -1,0 +1,103 @@
+html, body {
+    background-color: #000;
+   /*color: #636b6f;*/
+   color:white ;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 54px;
+    text-transform: uppercase;
+    border-bottom: 2px solid;
+    padding: 12px ; 
+    color: #5e2195 ; 
+    font-weight: 700;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+.dumb
+{
+    border: 2px white solid ; 
+}
+footer{
+    background: #eee ;
+    padding : 20px ; 
+    text-align: center ;
+    color: #636b6f ;  
+
+}
+
+ .pizza-item {
+    margin: 10px 0;
+    padding: 12px;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 50px;
+
+  }
+  
+  .bigdiv .pizza-item img {
+    width: 60px;
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  
+  .bigdiv .pizza-item h3 {
+    display: inline-block;
+    font-weight: normal;
+    margin-left: 20px;
+  }
+  
+  .bigdiv .pizza-item h3 a {
+    color: #777;
+    text-decoration: none !important;
+
+  }
+
+  .bigdiv .bigdiv
+  {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
